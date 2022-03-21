@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './pages'
+import Pokemem from './pages/pokemem'
+import GravyTrain from './pages/gravytrain'
+import SignUp from './pages/signup'
+import SignIn from './pages/signin'
+import CryptoTracker from './pages/cryptotracker';
 
 function App() {
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Navbar />
+          <Routes>
+          <Route path="/" exact element={<Home/>} />
+          <Route path="/pokemem" element={<Pokemem/>} />
+          <Route path="/gravytrain" element={<GravyTrain/>} />
+          <Route path="/cryptotracker" element={<CryptoTracker/>} />
+          <Route path="/signup" element={<SignUp/>} />
+          <Route path="/signin" element={<SignIn/>} />
+          </Routes>
+      </Router>
     </div>
   );
 }
