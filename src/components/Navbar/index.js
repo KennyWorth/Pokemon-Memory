@@ -15,11 +15,11 @@ const Navbar = () => {
                 <NavLink to='/pokemem' activeStyle>
                     Pokemon Memory Game
                 </NavLink>
-                <NavLink to='/gravytrain' activeStyle>
-                    Gravy Train
+                <NavLink to='/about' activeStyle>
+                    About
                 </NavLink>
-                <NavLink to='/signup' activeStyle>
-                    Sign Up
+                <NavLink to='/contact' activeStyle>
+                    Contact Me
                 </NavLink>
                 <NavBtn>
                     <NavBtnLink to='/signin'>Sign In</NavBtnLink>

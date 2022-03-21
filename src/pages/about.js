@@ -1,10 +1,10 @@
 import React from 'react'
 
-const GravyTrain = () => {
+const About = () => {
   return (
       <div>
       </div>
   )
 }
 
-export default GravyTrain
+export default About

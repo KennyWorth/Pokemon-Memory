@@ -1,14 +1,14 @@
 import React from 'react'
 
-const SignUp = () => {
+const Contact = () => {
   return (
       <div style={{
           justifyContent: 'center', 
           alignItems: 'center', 
           height: '90vh'}}>
-          <h1>Sign Up</h1>
+          <h1>Contact Me</h1>
       </div>
   )
 }
 
-export default SignUp
+export default Contact

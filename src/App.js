@@ -3,8 +3,8 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages'
 import Pokemem from './pages/pokemem'
-import GravyTrain from './pages/gravytrain'
-import SignUp from './pages/signup'
+import About from './pages/about'
+import Contact from './pages/contact'
 import SignIn from './pages/signin'
 import CryptoTracker from './pages/cryptotracker';
 
@@ -17,9 +17,9 @@ function App() {
           <Routes>
           <Route path="/" exact element={<Home/>} />
           <Route path="/pokemem" element={<Pokemem/>} />
-          <Route path="/gravytrain" element={<GravyTrain/>} />
+          <Route path="/about" element={<About/>} />
           <Route path="/cryptotracker" element={<CryptoTracker/>} />
-          <Route path="/signup" element={<SignUp/>} />
+          <Route path="/contact" element={<Contact/>} />
           <Route path="/signin" element={<SignIn/>} />
           </Routes>
       </Router>
