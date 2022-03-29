@@ -26,6 +26,7 @@ export const LogoLink = styled(Link)`
     cursor: pointer;
     font-size: 1.3rem;
     white-space: nowrap;
+    margin-left: 71px;
 
     &.active {
         color: #fff;
@@ -35,7 +36,7 @@ export const LogoLink = styled(Link)`
     }
     @media screen and (max-width: 940px) {
         padding: 0px,0rem;
-        margin-left: -20px;
+        margin-left: 71px;
     }
 `
 
@@ -55,28 +56,6 @@ export const NavLink = styled(Link)`
     }
     &:hover {
         color: #000;
-    }
-`
-export const Bars = styled(FaBars)`
-    display: none;
-    color: #fff;
-
-    @media screen and (max-width: 940px) {
-        display: block;
-        top: 25px;
-        right: 0;
-        -webkit-box-pack: end;
-        justify-content: flex-end;
-        transform: translate(-100%,35%);
-        font-size: 1.8rem;
-        cursor: pointer;
-        margin-left: 7%;
-    }
-    @media screen and (max-width: 550px) {
-        margin-left: 9%;
-    }
-    &:active {
-
     }
 `
 export const BarsMenu = styled.div`
@@ -113,7 +92,7 @@ export const NavBtn = styled.nav`
 `
 export const NavBtnLink = styled(Link)`
     background: #fff;
-    color: #000;
+    color: #FFF;
     border: none;
     outline: none;
     cursor: pointer;
