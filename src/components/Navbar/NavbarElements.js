@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { NavLink as Link } from 'react-router-dom'
-import {FaBars} from 'react-icons/fa'
 
 export const Nav = styled.nav`
     box-shadow: 0px 5px 10px 0px #aaa;

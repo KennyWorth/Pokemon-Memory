@@ -14,7 +14,7 @@ const CryptoTracker = () => {
         <br/><br/><br/><br/>I created a gRPC-based caching service for cryptocurrency price data from CoinGecko.<br/>
         The application is Go-based and adds the benefit of reducing API calls for any further<br/>
         services which may be created. The caching is done via Redis-based AWS Elasticache.<br/>
-        The gRPCUI link to view the service can be found <a name="test" href="http://localhost:3000/">here.</a>
+        
       </div></div>
   )
 }
